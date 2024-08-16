@@ -1,0 +1,20 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "S43V4RQJ55.net.artprocessors.gettyguide",
+          "E56WH3Q3P3.edu.getty.gettyguide",
+          "E56WH3Q3P3.edu.getty.gettyguide.stage",
+          "SPXZ9W3ARS.net.artprocessors.gettyguide-byod-test"
+        ],
+        "components": [
+          {
+             "/": "/*",
+             "comment": "Matches any URL whose path starts with /"
+          }
+        ]
+      }
+    ]
+  }
+}

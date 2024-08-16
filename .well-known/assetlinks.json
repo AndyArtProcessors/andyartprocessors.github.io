@@ -1,0 +1,38 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "net.artprocessors.gettyguideandroid",
+      "sha256_cert_fingerprints": [
+        "39:B9:A0:1F:36:F0:F7:44:7A:BA:84:15:A7:1D:FD:1D:C8:76:A2:41:D2:54:9D:A2:A0:7A:E5:6C:35:CE:23:6D"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "net.artprocessors.gettyguideandroid.preview",
+      "sha256_cert_fingerprints": [
+        "D3:B0:10:EC:57:0F:0D:ED:0E:5E:5A:4B:F5:E5:89:AB:6E:19:2C:31:F6:77:4D:37:F2:12:EB:B0:64:08:CF:E1"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "net.artprocessors.gettyguideandroid.dev",
+      "sha256_cert_fingerprints": [
+        "D3:B0:10:EC:57:0F:0D:ED:0E:5E:5A:4B:F5:E5:89:AB:6E:19:2C:31:F6:77:4D:37:F2:12:EB:B0:64:08:CF:E1"
+      ]
+    }
+  }
+]
