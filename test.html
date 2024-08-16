@@ -200,6 +200,7 @@
         <div class="container">
             <div class="content">
                 <h1 class="welcome-header">{{ translationsForLanguage["landingPage.welcomeMessage"] }}</h1>
+                <a href="https://staging.links.getty.artpro.io/?deeplink=site/016e9079-0615-b58f-f447-05a98e7c9510/mood/01860472-3d00-718e-313e-07556f623a46/point-of-interest/0186aa6d-c875-907c-89be-4594ee117506">Click here to visit the page</A>
                 <div id="ios-content" style="display:none;">
                     <div>
                         <h2 class="step">{{ translationsForLanguage["landingPage.step1"] }}: {{ translationsForLanguage["landingPage.downloadApp"] }}</h2>
@@ -252,7 +253,7 @@
         <footer>
             <div class="footer-content container">
                 <div class="footer-logo">
-                    <svg id="getty-logo" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M29.6826 13.6817C30.4965 13.6817 31.3341 13.6521 31.997 13.5691V6.52977C31.4436 6.34015 30.2124 6.26905 29.3363 6.26905H25.6574C25.6574 10.0198 25.6367 11.2464 25.7225 13.6817H29.6826ZM25.5302 19.696L28.5283 24.5577C28.5283 24.5577 29.875 22.395 31.2246 20.2441C31.4821 19.8352 31.7632 19.3582 32 18.9049V14.8431C31.2453 14.8046 30.2301 14.8223 29.4458 14.8223H23.121C23.337 13.4832 23.5294 10.402 23.5294 5.48986C23.5294 2.94491 23.5057 1.19693 23.4613 0H5.95191C4.21162 1.67392 3.14613 4.07073 3.14613 7.06601C3.14613 13.4239 7.01739 18.0517 13.6855 18.0517C16.3256 18.0517 18.2257 17.1954 18.939 16.8073C19.01 15.5808 19.084 9.66133 18.7229 8.92658H21.0758C20.8627 9.46875 20.8509 12.1233 20.8509 12.9855C20.8509 13.8476 20.9279 17.4354 20.9279 17.4354C20.2175 17.7821 17.1957 18.976 13.7684 18.976C4.1613 18.979 0.99741 12.7277 0.99741 7.78002C0.99741 4.58328 2.23455 1.9376 4.17906 0.00296269H0V20.1789C0.612653 20.3418 1.69293 20.3122 2.26711 20.3122H9.21643C9.58934 20.3122 11.448 20.3951 11.8624 20.0663L11.5546 21.7284C12.034 22.0157 13.434 21.9743 14.1176 21.9743H20.5372C20.9071 21.9743 22.7688 22.0543 23.1831 21.7284C23.1831 21.7284 22.8428 23.4556 22.8516 23.503C22.603 23.0942 21.138 23.0942 20.623 23.0942H18.3056C18.205 23.7726 18.1428 26.4864 18.1428 29.5706C18.1428 30.4505 18.1428 31.2593 18.1487 32H27.01C27.1402 31.3867 27.1846 30.6105 27.1846 28.7559V25.7517L23.7899 20.2441C23.047 19.0501 22.2153 17.6991 21.7003 17.3021H24.4706C24.4351 17.8739 25.0033 18.8249 25.5361 19.696H25.5302ZM31.997 5.08101V0.00296269H25.7551C25.6959 1.66799 25.6574 3.61448 25.6574 5.14915H29.9845C30.677 5.14915 31.4436 5.15804 32 5.08101H31.997ZM29.0196 28.7588C29.0196 30.6016 29.064 31.3926 29.1853 32H32V21.0084L29.0226 25.7724V28.7559L29.0196 28.7588ZM13.9105 23.0942C13.0226 23.0942 11.9452 23.0734 11.2231 23.5089L11.5339 21.8439C11.2793 21.4321 9.8202 21.4321 9.30226 21.4321H6.9434C6.84277 22.1165 6.78061 24.8273 6.78061 27.9085C6.78061 29.4995 6.78949 30.8564 6.80429 32H16.1302C16.1332 31.2593 16.1361 30.4505 16.1361 29.5706C16.1361 26.4864 16.1154 23.7726 15.9911 23.0942H13.9134H13.9105ZM2.06289 21.4291C1.40289 21.4291 0.645209 21.4202 0 21.5891V31.997H4.74732C4.76508 30.8534 4.771 29.4995 4.771 27.9056C4.771 24.8214 4.75028 22.1135 4.62597 21.4291H2.06289Z" fill="#666666"/>
                     </svg>
                     <span>The J. Paul Getty Trust</span>
@@ -262,9 +263,6 @@
                     <a href="https://www.getty.edu/legal/privacy/" target="_blank" class="links">{{ translationsForLanguage["landingPage.privacyPolicy"] }}</a> | 
                     <A href="https://www.getty.edu/legal/terms-of-use/" target="_blank" class="links">{{ translationsForLanguage["landingPage.termsOfUse"] }}</A>
                 </p>
-                <button id="copy-button" style="display: none;">Open App</button>
-                <p id="hidden-message" style="display: none;">App not installed</p>
-                <p id="hidden-link"><a href="/?deeplink=site/016e907c-06ed-f9c7-0260-127351373f4a/tour/7615fff3-f85a-416e-bbcb-47bd486d79a2">Visit the Link</a></p>
             </div>
         </footer>
     </div>
@@ -337,8 +335,6 @@
                 //         console.error('Failed to load translations:', error);
                 //     }
                 // };
-
-
 
                 translations.value = {
                     "zh-Hans": {
@@ -576,29 +572,6 @@
                     // await loadTranslations().then(() => {
                     //     setTranslationsForLanguage(language);
                     // });
-                    const copyButton = document.getElementById('copy-button');
-                    if (copyButton) {
-                        copyButton.addEventListener('click', () => {
-                            let url = document.location.href;
-                            url = url.replace(/^https?:\/\//, ''); // Remove the http or https protocol
-                            window.open(`gettyguide://${url}`, '_blank'); // Prepend 'gettyguide' and open in a new tab
-
-                            try {
-                                // Attempt to open the app
-                                window.open(`gettyguide://${url}`, '_blank'); // Prepend 'gettyguide' and open in a new tab
-                                } catch (e) {
-                                document.getElementById('hidden-message').style.display = 'block';
-                                // document.getElementById('hidden-link').style.display = 'block';
-                            }
-
-                        });
-                    }
-
-                    // display the temporary button that opens the custom app link
-                    document.getElementById('getty-logo').addEventListener('click', function() {
-                        document.getElementById('copy-button').style.display = 'block';
-                    });
-
                 });
 
                 return {
